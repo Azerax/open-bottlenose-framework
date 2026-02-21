@@ -1,0 +1,43 @@
+# secrets
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+
+# local configs (never commit)
+.openclaw/
+**/.openclaw/
+
+# memory and state (never commit)
+memory/
+chroma_merged/
+chroma*/
+vectorstore*/
+embeddings*/
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# runtime
+logs/
+tmp/
+cache/
+.sessions/
+
+# dependencies
+node_modules/
+**/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# archives and binaries
+*.zip
+*.7z
+*.rar
+*.docx
+*.pdf
